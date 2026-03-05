@@ -15,7 +15,7 @@
 
 ### About Me
 
-Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with low-level hardware and control systems. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Fluent in Spanish, English, and German.
+Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with low-level hardware and control systems. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
 
 Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge software that doesn't exist in nixpkgs and maintaining a performance-tuned multi-host system configuration.
 
@@ -49,11 +49,6 @@ Linux: Vulkan / Mesa / AMDGPU / Kernel patching / BTRFS / LUKS / sops-nix
 ```
 
 ---
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Daaboulex&show_icons=true&theme=tokyonight&hide_border=true&bg_color=00000000&count_private=true" alt="GitHub Stats" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daaboulex&layout=compact&theme=tokyonight&hide_border=true&bg_color=00000000&langs_count=6" alt="Top Languages" height="165">
-</p>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Daaboulex&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak">
