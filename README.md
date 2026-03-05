@@ -1,4 +1,4 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:F08030,50:B060C0,100:78C0E8&height=180&text=Stephan%20Daaboul&fontColor=E8D040&fontSize=42&animation=twinkling&desc=Embedded%20Systems%20Engineer%20%7C%20NixOS%20Package%20Maintainer&descSize=18&descAlignY=62&descColor=ffffff"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F08030,40:B060C0,100:78C0E8&height=200&section=header&text=Stephan%20Daaboul&fontColor=E8D040&fontSize=44&fontAlignY=32&animation=scaleIn&desc=Embedded%20Systems%20Engineer%20%7C%20NixOS%20Package%20Maintainer&descSize=18&descAlignY=52&descColor=ffffff&stroke=E8D040&strokeWidth=1"/>
 
 <p align="center">
   <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/NixOS-unstable-78C0E8?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS"></a>
@@ -106,4 +106,4 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&hide_border=true&bg_color=00000000&color=78C0E8&line=B060C0&point=F08030&area=true&area_color=B060C0" width="100%" alt="Contribution Graph"/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:78C0E8,50:B060C0,100:F08030&height=100&section=footer&reversal=true"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:78C0E8,40:B060C0,100:F08030&height=120&section=footer"/>
