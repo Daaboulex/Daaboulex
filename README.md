@@ -70,7 +70,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28"> &nbsp;Tech
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,linux,bash,nix,git,arduino,cmake,vscode,github&theme=dark" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=c,linux,bash,powershell,nix,dotnet,arduino,vscode,github&theme=dark" alt="Tech Stack"/>
 </p>
 
 <table align="center">
