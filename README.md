@@ -1,12 +1,12 @@
 <p align="center">
   <a href="https://github.com/Daaboulex">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=F08030&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=80&lines=Stephan+Daaboul" alt="Stephan Daaboul"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=F08030&center=true&vCenter=true&repeat=false&width=600&height=45&lines=Stephan+Daaboul" alt="Stephan Daaboul"/>
   </a>
 </p>
 
 <p align="center">
   <a href="https://github.com/Daaboulex">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=2000&color=78C0E8&center=true&vCenter=true&width=550&height=30&lines=Embedded+Systems+Engineer+%7C+NixOS+Package+Maintainer;Arm+Cortex-M+%7C+Kernel+Patching+%7C+Nix+Flakes;Building+bleeding-edge+Linux+packages+for+NixOS" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=2000&color=78C0E8&center=true&vCenter=true&width=700&height=25&lines=Embedded+Systems+Engineer;NixOS+Package+Maintainer;Arm+Cortex-M+%7C+Kernel+Patching+%7C+Nix+Flakes" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -18,9 +18,7 @@
   <img src="https://komarev.com/ghpvc/?username=Daaboulex&style=for-the-badge&color=F08030&label=Profile+Views" alt="Profile Views">
 </p>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
-
-<br>
+<p align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"></p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="28"> &nbsp;About Me
 
@@ -28,7 +26,7 @@ Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working w
 
 Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge software that doesn't exist in nixpkgs and maintaining a performance-tuned multi-host system configuration.
 
-<br>
+<p align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"></p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" width="28"> &nbsp;NixOS Packages & Modules
 
@@ -63,7 +61,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
   </tr>
 </table>
 
-<br>
+<p align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"></p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="28"> &nbsp;System Configuration
 
@@ -77,7 +75,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 >
 > **Automated tooling** — `nrb` build helper, auto-generated docs, config validation scripts
 
-<br>
+<p align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"></p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28"> &nbsp;Tech
 
@@ -100,7 +98,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
   </tr>
 </table>
 
-<br>
+<p align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"></p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="28"> &nbsp;Research
 
@@ -108,7 +106,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 *Journal of Chromatography A*, 2023 &mdash; [DOI: 10.1016/j.chroma.2023.463930](https://doi.org/10.1016/j.chroma.2023.463930) &bull; [Code & Hardware](https://github.com/kelangarcia/Automation_of_a_Linear_Gradient_Mixer_for_Chromatography)
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<p align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"></p>
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="28"> &nbsp;Stats
 
@@ -118,4 +116,4 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&hide_border=true&bg_color=00000000&color=78C0E8&line=B060C0&point=F08030&area=true&area_color=B060C0" width="100%" alt="Contribution Graph"/>
 
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<p align="center"><img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%"></p>
