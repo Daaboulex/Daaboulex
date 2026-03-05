@@ -22,9 +22,9 @@
 
 <img src="https://img.shields.io/badge/%E2%9A%A1-About_Me-B060C0?style=for-the-badge&labelColor=1a1b27" alt="About Me"/>
 
-Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with low-level hardware and control systems. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
+Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with Arm Cortex-M firmware, ESP32 IoT gateways, and industrial control systems. I build cross-platform build and flash toolchains in PowerShell and Nix that auto-generate Makefiles, wrap firmware flashing, and integrate with VSCode tasks — bridging Windows and Linux development seamlessly. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
 
-Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge software that doesn't exist in nixpkgs and maintaining a performance-tuned multi-host system configuration.
+Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge software that doesn't exist in nixpkgs and maintaining a performance-tuned multi-host system configuration. Avid system tweaker and optimizer.
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
@@ -86,7 +86,11 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 <table align="center">
   <tr>
     <td><b>Embedded</b></td>
-    <td><code>Arm Cortex-M</code> <code>C</code> <code>RTOS</code> <code>Control Systems</code> <code>Hardware Design</code></td>
+    <td><code>Arm Cortex-M4</code> <code>C</code> <code>C++</code> <code>FreeRTOS</code> <code>ESP32</code> <code>MQTT</code> <code>Control Systems</code></td>
+  </tr>
+  <tr>
+    <td><b>Tooling</b></td>
+    <td><code>PowerShell</code> <code>Cross-platform CI</code> <code>Makefile generation</code> <code>VSCode task automation</code> <code>.NET</code></td>
   </tr>
   <tr>
     <td><b>NixOS</b></td>
