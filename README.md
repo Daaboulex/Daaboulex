@@ -1,4 +1,14 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:F08030,40:B060C0,100:78C0E8&height=200&section=header&text=Stephan%20Daaboul&fontColor=E8D040&fontSize=44&fontAlignY=32&animation=scaleIn&desc=Embedded%20Systems%20Engineer%20%7C%20NixOS%20Package%20Maintainer&descSize=18&descAlignY=52&descColor=ffffff&stroke=E8D040&strokeWidth=1"/>
+<p align="center">
+  <a href="https://github.com/Daaboulex">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=F08030&center=true&vCenter=true&multiline=true&repeat=false&width=500&height=80&lines=Stephan+Daaboul" alt="Stephan Daaboul"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Daaboulex">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=18&duration=3000&pause=2000&color=78C0E8&center=true&vCenter=true&width=550&height=30&lines=Embedded+Systems+Engineer+%7C+NixOS+Package+Maintainer;Arm+Cortex-M+%7C+Kernel+Patching+%7C+Nix+Flakes;Building+bleeding-edge+Linux+packages+for+NixOS" alt="Typing SVG"/>
+  </a>
+</p>
 
 <p align="center">
   <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/NixOS-unstable-78C0E8?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS"></a>
@@ -7,6 +17,8 @@
   <a href="https://github.com/Daaboulex"><img src="https://img.shields.io/github/followers/Daaboulex?label=Follow&style=for-the-badge&logo=github&color=82D44A" alt="Followers"></a>
   <img src="https://komarev.com/ghpvc/?username=Daaboulex&style=for-the-badge&color=F08030&label=Profile+Views" alt="Profile Views">
 </p>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 <br>
 
@@ -96,7 +108,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 *Journal of Chromatography A*, 2023 &mdash; [DOI: 10.1016/j.chroma.2023.463930](https://doi.org/10.1016/j.chroma.2023.463930) &bull; [Code & Hardware](https://github.com/kelangarcia/Automation_of_a_Linear_Gradient_Mixer_for_Chromatography)
 
-<br>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
 
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="28"> &nbsp;Stats
 
@@ -106,4 +118,4 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 
 <img src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&hide_border=true&bg_color=00000000&color=78C0E8&line=B060C0&point=F08030&area=true&area_color=B060C0" width="100%" alt="Contribution Graph"/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:78C0E8,40:B060C0,100:F08030&height=120&section=footer"/>
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
