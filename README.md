@@ -1,11 +1,11 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:E8734A,50:9B6BBF,100:89CFF0&height=180&section=header&text=Stephan%20Daaboul&fontColor=F0E040&fontSize=42&fontAlignY=35&animation=fadeIn&desc=Embedded%20Systems%20Engineer%20%7C%20NixOS%20Package%20Maintainer&descSize=18&descAlignY=55&descColor=ffffff"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:F08030,50:B060C0,100:78C0E8&height=180&text=Stephan%20Daaboul&fontColor=E8D040&fontSize=42&animation=twinkling&desc=Embedded%20Systems%20Engineer%20%7C%20NixOS%20Package%20Maintainer&descSize=18&descAlignY=62&descColor=ffffff"/>
 
 <p align="center">
-  <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/NixOS-unstable-89CFF0?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS"></a>
-  <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/Kernel-CachyOS--LTO-E8734A?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel"></a>
-  <a href="https://www.linkedin.com/in/stephan-daaboul/"><img src="https://img.shields.io/badge/LinkedIn-Connect-9B6BBF?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/Daaboulex"><img src="https://img.shields.io/github/followers/Daaboulex?label=Follow&style=for-the-badge&logo=github&color=7FCD4E" alt="Followers"></a>
-  <img src="https://komarev.com/ghpvc/?username=Daaboulex&style=for-the-badge&color=E8734A&label=Profile+Views" alt="Profile Views">
+  <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/NixOS-unstable-78C0E8?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS"></a>
+  <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/Kernel-CachyOS--LTO-F08030?style=for-the-badge&logo=linux&logoColor=white" alt="Kernel"></a>
+  <a href="https://www.linkedin.com/in/stephan-daaboul/"><img src="https://img.shields.io/badge/LinkedIn-Connect-B060C0?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
+  <a href="https://github.com/Daaboulex"><img src="https://img.shields.io/github/followers/Daaboulex?label=Follow&style=for-the-badge&logo=github&color=82D44A" alt="Followers"></a>
+  <img src="https://komarev.com/ghpvc/?username=Daaboulex&style=for-the-badge&color=F08030&label=Profile+Views" alt="Profile Views">
 </p>
 
 <br>
@@ -101,9 +101,9 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 ## <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="28"> &nbsp;Stats
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com?user=Daaboulex&hide_border=true&background=00000000&ring=E8734A&fire=9B6BBF&currStreakLabel=89CFF0&sideLabels=89CFF0&currStreakNum=7FCD4E&sideNums=7FCD4E&dates=E8734A" alt="GitHub Streak" width="49%">
+  <img src="https://github-readme-streak-stats.herokuapp.com?user=Daaboulex&hide_border=true&background=00000000&ring=F08030&fire=B060C0&currStreakLabel=78C0E8&sideLabels=78C0E8&currStreakNum=82D44A&sideNums=82D44A&dates=F08030" alt="GitHub Streak" width="49%">
 </p>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&hide_border=true&bg_color=00000000&color=89CFF0&line=9B6BBF&point=E8734A&area=true&area_color=9B6BBF" width="100%" alt="Contribution Graph"/>
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&hide_border=true&bg_color=00000000&color=78C0E8&line=B060C0&point=F08030&area=true&area_color=B060C0" width="100%" alt="Contribution Graph"/>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:89CFF0,50:9B6BBF,100:E8734A&height=100&section=footer"/>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=venom&color=0:78C0E8,50:B060C0,100:F08030&height=100&section=footer&reversal=true"/>
