@@ -24,7 +24,7 @@
 
 Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with Arm Cortex-M firmware, ESP32 IoT gateways, and industrial control systems. I build cross-platform build and flash toolchains in PowerShell and Nix that auto-generate Makefiles, wrap firmware flashing, and integrate with VSCode tasks — bridging Windows and Linux development seamlessly. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
 
-Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge software that doesn't exist in nixpkgs and maintaining a performance-tuned multi-host system configuration. Avid system tweaker and optimizer.
+Not a computer scientist — just an engineer who stitches things together and makes them work. Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge software that doesn't exist in nixpkgs and maintaining a performance-tuned multi-host system configuration. Avid system tweaker and optimizer.
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
