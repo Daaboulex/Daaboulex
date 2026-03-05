@@ -20,7 +20,7 @@
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/People/Technologist.png" width="28"> &nbsp;About Me</h3>
+<img src="https://img.shields.io/badge/%E2%9A%A1-About_Me-B060C0?style=for-the-badge&labelColor=1a1b27" alt="About Me"/>
 
 Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with low-level hardware and control systems. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
 
@@ -28,7 +28,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Package.png" width="28"> &nbsp;NixOS Packages & Modules</h3>
+<img src="https://img.shields.io/badge/%F0%9F%93%A6-NixOS_Packages_%26_Modules-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
 
 <table>
   <tr>
@@ -63,7 +63,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Desktop%20Computer.png" width="28"> &nbsp;System Configuration</h3>
+<img src="https://img.shields.io/badge/%F0%9F%96%A5%EF%B8%8F-System_Configuration-F08030?style=for-the-badge&labelColor=1a1b27" alt="System Configuration"/>
 
 <a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 200+ custom options across 30+ modules:
 
@@ -77,7 +77,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Hammer%20and%20Wrench.png" width="28"> &nbsp;Tech</h3>
+<img src="https://img.shields.io/badge/%F0%9F%94%A7-Tech-82D44A?style=for-the-badge&labelColor=1a1b27" alt="Tech"/>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=c,linux,bash,powershell,nix,dotnet,arduino,vscode,github&theme=dark" alt="Tech Stack"/>
@@ -100,7 +100,7 @@ Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Objects/Scroll.png" width="28"> &nbsp;Research</h3>
+<img src="https://img.shields.io/badge/%F0%9F%93%84-Research-E8D040?style=for-the-badge&labelColor=1a1b27" alt="Research"/>
 
 **An affordable gradient mixer for chromatography with aqueous and organic solvents**
 K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
@@ -108,7 +108,7 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<h3><img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Travel%20and%20places/Fire.png" width="28"> &nbsp;Stats</h3>
+<img src="https://img.shields.io/badge/%F0%9F%93%8A-Stats-B060C0?style=for-the-badge&labelColor=1a1b27" alt="Stats"/>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Daaboulex&hide_border=true&background=00000000&ring=F08030&fire=B060C0&currStreakLabel=78C0E8&sideLabels=78C0E8&currStreakNum=82D44A&sideNums=82D44A&dates=F08030" alt="GitHub Streak" width="49%">
