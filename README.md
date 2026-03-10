@@ -59,21 +59,27 @@ Not a computer scientist — just an engineer who stitches things together and m
     <td align="center"><a href="https://github.com/Daaboulex/nx-save-sync-nix"><b>nx-save-sync-nix</b></a></td>
     <td>Nintendo Switch save sync tool</td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/vkBasalt_overlay_wayland"><b>vkBasalt overlay</b></a></td>
+    <td>Vulkan post-processing layer with in-game ImGui UI (Wayland + X11)</td>
+  </tr>
 </table>
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
 <img src="https://img.shields.io/badge/%F0%9F%96%A5%EF%B8%8F-System_Configuration-F08030?style=for-the-badge&labelColor=1a1b27" alt="System Configuration"/>
 
-<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 200+ custom options across 30+ modules:
+<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 200+ custom options across 40 modules:
 
-> **Dendritic architecture** — every feature is an independent, toggleable module behind `myModules.*`
+> **Dendritic architecture** — every feature is an independent, toggleable module behind `myModules.*` with `_class = "nixos"` type safety
 >
 > **Performance-first** — CachyOS kernel with Zen 5 microarch compilation, bore scheduler, ananicy-cpp
 >
 > **Multi-host** — Desktop (Ryzen 9950X3D + RX 9070 XT) and MacBook Pro 9,2 with kernel specialisations
 >
-> **Automated tooling** — `nrb` build helper, auto-generated docs, config validation scripts
+> **Code quality** — treefmt (nixfmt, deadnix, statix, shfmt, shellcheck), git-hooks, NixOS VM integration tests
+>
+> **Automated tooling** — `nrb` build helper, disko declarative partitioning, auto-generated docs, CI checks
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
@@ -94,7 +100,7 @@ Not a computer scientist — just an engineer who stitches things together and m
   </tr>
   <tr>
     <td><b>NixOS</b></td>
-    <td><code>Nix Flakes</code> <code>flake-parts</code> <code>Home Manager</code> <code>CachyOS</code> <code>Secure Boot</code></td>
+    <td><code>Nix Flakes</code> <code>flake-parts</code> <code>Home Manager</code> <code>CachyOS</code> <code>Secure Boot</code> <code>treefmt</code> <code>disko</code></td>
   </tr>
   <tr>
     <td><b>Linux</b></td>
