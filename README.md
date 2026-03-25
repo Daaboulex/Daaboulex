@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/Daaboulex">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=2000&color=82D44A&center=true&vCenter=true&width=700&height=25&lines=Embedded+Systems+Engineer;NixOS+Package+Maintainer;Arm+Cortex-M+%7C+Kernel+Patching+%7C+Nix+Flakes" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=2000&color=82D44A&center=true&vCenter=true&width=700&height=25&lines=Embedded+Systems+Engineer;NixOS+Package+Maintainer;AI+Tooling+%7C+Arm+Cortex-M+%7C+Kernel+Patching+%7C+Nix+Flakes" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -20,44 +20,27 @@
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/%E2%9A%A1-About_Me-B060C0?style=for-the-badge&labelColor=1a1b27" alt="About Me"/>
+<img src="https://img.shields.io/badge/-About_Me-B060C0?style=for-the-badge&labelColor=1a1b27" alt="About Me"/>
 
 Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with Arm Cortex-M firmware, ESP32 IoT gateways, and industrial control systems. I build cross-platform build and flash toolchains in PowerShell and Nix that auto-generate Makefiles, wrap firmware flashing, and integrate with VSCode tasks — bridging Windows and Linux development seamlessly. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
 
-Not a computer scientist — just an engineer who stitches things together and makes them work. Outside of work, I contribute to the NixOS ecosystem — packaging bleeding-edge software that doesn't exist in nixpkgs and maintaining a performance-tuned multi-host system configuration. Avid system tweaker and optimizer.
+Not a computer scientist — just an engineer who stitches things together and makes them work. Outside of work, I maintain 17 Nix package repos for bleeding-edge software that doesn't exist in nixpkgs, run a performance-tuned multi-host NixOS system configuration with 219 custom options and 125 Home Manager modules, and build AI-assisted development tooling. Avid system tweaker and optimizer.
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/%F0%9F%93%A6-NixOS_Packages_%26_Modules-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
+<img src="https://img.shields.io/badge/-NixOS_Packages_%26_Modules-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
 
+17 repos following the [Nix Packaging Standard](https://github.com/Daaboulex) with CI auto-updates, binary caching, and automated upstream tracking.
+
+**GPU & Graphics**
 <table>
   <tr>
     <td align="center" width="140"><a href="https://github.com/Daaboulex/mesa-git-nix"><b>mesa-git-nix</b></a></td>
     <td>Bleeding-edge Mesa from <code>main</code> — latest Vulkan/OpenGL drivers before release</td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/cachyos-settings-nix"><b>cachyos-settings-nix</b></a></td>
-    <td>CachyOS performance settings as a standalone NixOS module</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/portmaster-nix"><b>portmaster-nix</b></a></td>
-    <td>Portmaster privacy firewall packaged for NixOS</td>
-  </tr>
-  <tr>
     <td align="center"><a href="https://github.com/Daaboulex/lsfg-vk-nix"><b>lsfg-vk-nix</b></a></td>
     <td>Vulkan frame generation (Lossless Scaling) for Linux</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/eden-nix"><b>eden-nix</b></a></td>
-    <td>Eden Nintendo Switch emulator Nix flake</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/OCCT-nix"><b>OCCT-nix</b></a></td>
-    <td>OCCT hardware stress test for NixOS</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/nx-save-sync-nix"><b>nx-save-sync-nix</b></a></td>
-    <td>Nintendo Switch save sync tool</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/vkBasalt_overlay_wayland"><b>vkBasalt overlay</b></a></td>
@@ -65,17 +48,91 @@ Not a computer scientist — just an engineer who stitches things together and m
   </tr>
 </table>
 
+**System & Security**
+<table>
+  <tr>
+    <td align="center" width="140"><a href="https://github.com/Daaboulex/cachyos-settings-nix"><b>cachyos-settings</b></a></td>
+    <td>CachyOS performance tuning as a standalone NixOS module</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/portmaster-nix"><b>portmaster-nix</b></a></td>
+    <td>Portmaster privacy firewall with system tray integration</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/coolercontrol-nix"><b>coolercontrol-nix</b></a></td>
+    <td>Fan and cooling device monitoring with HM module, CLI, and API contract monitoring</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/linux-corecycler"><b>linux-corecycler</b></a></td>
+    <td>Per-core CPU stability tester and PBO Curve Optimizer tuner for AMD Ryzen</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/OCCT-nix"><b>OCCT-nix</b></a></td>
+    <td>OCCT hardware stress testing, benchmarking, and monitoring</td>
+  </tr>
+</table>
+
+**Gaming & Emulation**
+<table>
+  <tr>
+    <td align="center" width="140"><a href="https://github.com/Daaboulex/eden-nix"><b>eden-nix</b></a></td>
+    <td>Eden Nintendo Switch emulator</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/nx-save-sync-nix"><b>nx-save-sync</b></a></td>
+    <td>Nintendo Switch save file synchronization</td>
+  </tr>
+</table>
+
+**Audio & Peripherals**
+<table>
+  <tr>
+    <td align="center" width="140"><a href="https://github.com/Daaboulex/goxlr-hm-nix"><b>goxlr-hm-nix</b></a></td>
+    <td>GoXLR Utility Home Manager module — declarative mixer configuration</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/streamcontroller-nix"><b>streamcontroller</b></a></td>
+    <td>Elgato Stream Deck control with CLI and declarative config</td>
+  </tr>
+</table>
+
+**AI & Developer Tools**
+<table>
+  <tr>
+    <td align="center" width="140"><a href="https://github.com/Daaboulex/gemini-cli-nix"><b>gemini-cli-nix</b></a></td>
+    <td>Gemini CLI — AI agent in your terminal</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/lmstudio-nix"><b>lmstudio-nix</b></a></td>
+    <td>LM Studio — local LLM inference desktop app and server</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/models-nix"><b>models-nix</b></a></td>
+    <td>Models CLI — TUI for browsing AI models, benchmarks, and coding agents</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/openviking-nix"><b>openviking-nix</b></a></td>
+    <td>OpenViking — agent-native context database for AI agents</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/ripgrep-nix"><b>ripgrep-nix</b></a></td>
+    <td>ripgrep built from source with latest features</td>
+  </tr>
+</table>
+
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/%F0%9F%96%A5%EF%B8%8F-System_Configuration-F08030?style=for-the-badge&labelColor=1a1b27" alt="System Configuration"/>
+<img src="https://img.shields.io/badge/-System_Configuration-F08030?style=for-the-badge&labelColor=1a1b27" alt="System Configuration"/>
 
-<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 200+ custom options across 40 modules:
+<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 219 custom options, 68 NixOS modules, and 125 Home Manager modules:
 
 > **Dendritic architecture** — every feature is an independent, toggleable module behind `myModules.*` with `_class = "nixos"` type safety
 >
-> **Performance-first** — CachyOS kernel with Zen 5 microarch compilation, bore scheduler, ananicy-cpp
+> **Performance-first** — CachyOS kernel with Zen 5 microarch compilation, BORE scheduler, ananicy-cpp, 17 custom overlays
 >
 > **Multi-host** — Desktop (Ryzen 9950X3D + RX 9070 XT) and MacBook Pro 9,2 with kernel specialisations
+>
+> **AI-augmented workflow** — Claude Code, Gemini CLI, Kiro, OpenCode, LM Studio, Models CLI, OpenViking, LLMFit
 >
 > **Code quality** — treefmt (nixfmt, deadnix, statix, shfmt, shellcheck), git-hooks, NixOS VM integration tests
 >
@@ -83,10 +140,10 @@ Not a computer scientist — just an engineer who stitches things together and m
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/%F0%9F%94%A7-Tech-82D44A?style=for-the-badge&labelColor=1a1b27" alt="Tech"/>
+<img src="https://img.shields.io/badge/-Tech-82D44A?style=for-the-badge&labelColor=1a1b27" alt="Tech"/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=c,linux,bash,powershell,nix,dotnet,arduino,vscode,github&theme=dark" alt="Tech Stack"/>
+  <img src="https://skillicons.dev/icons?i=c,linux,bash,powershell,nix,dotnet,arduino,vscode,github,python&theme=dark" alt="Tech Stack"/>
 </p>
 
 <table align="center">
@@ -100,17 +157,25 @@ Not a computer scientist — just an engineer who stitches things together and m
   </tr>
   <tr>
     <td><b>NixOS</b></td>
-    <td><code>Nix Flakes</code> <code>flake-parts</code> <code>Home Manager</code> <code>CachyOS</code> <code>Secure Boot</code> <code>treefmt</code> <code>disko</code></td>
+    <td><code>Nix Flakes</code> <code>flake-parts</code> <code>Home Manager</code> <code>CachyOS</code> <code>Secure Boot</code> <code>treefmt</code> <code>disko</code> <code>impermanence</code></td>
   </tr>
   <tr>
     <td><b>Linux</b></td>
-    <td><code>Vulkan</code> <code>Mesa</code> <code>AMDGPU</code> <code>Kernel patching</code> <code>BTRFS</code> <code>LUKS</code> <code>sops-nix</code></td>
+    <td><code>Vulkan</code> <code>Mesa</code> <code>AMDGPU</code> <code>Kernel patching</code> <code>BTRFS</code> <code>LUKS</code> <code>sops-nix</code> <code>VFIO</code></td>
+  </tr>
+  <tr>
+    <td><b>AI</b></td>
+    <td><code>Claude Code</code> <code>Gemini CLI</code> <code>Kiro</code> <code>LM Studio</code> <code>OpenCode</code> <code>TidalCycles</code></td>
+  </tr>
+  <tr>
+    <td><b>Gaming</b></td>
+    <td><code>Steam</code> <code>Gamescope</code> <code>MangoHud</code> <code>LSFG-VK</code> <code>vkBasalt</code> <code>Wine</code> <code>VFIO passthrough</code></td>
   </tr>
 </table>
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/%F0%9F%93%84-Research-E8D040?style=for-the-badge&labelColor=1a1b27" alt="Research"/>
+<img src="https://img.shields.io/badge/-Research-E8D040?style=for-the-badge&labelColor=1a1b27" alt="Research"/>
 
 **An affordable gradient mixer for chromatography with aqueous and organic solvents**
 K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
@@ -118,7 +183,7 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/%F0%9F%93%8A-Stats-B060C0?style=for-the-badge&labelColor=1a1b27" alt="Stats"/>
+<img src="https://img.shields.io/badge/-Stats-B060C0?style=for-the-badge&labelColor=1a1b27" alt="Stats"/>
 
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com?user=Daaboulex&hide_border=true&background=00000000&ring=F08030&fire=B060C0&currStreakLabel=78C0E8&sideLabels=78C0E8&currStreakNum=82D44A&sideNums=82D44A&dates=F08030" alt="GitHub Streak" width="49%">
