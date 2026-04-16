@@ -24,13 +24,13 @@
 
 Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with Arm Cortex-M firmware, ESP32 IoT gateways, and industrial control systems. I build cross-platform build and flash toolchains in PowerShell and Nix that auto-generate Makefiles, wrap firmware flashing, and integrate with VSCode tasks — bridging Windows and Linux development seamlessly. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
 
-Not a computer scientist — just an engineer who stitches things together and makes them work. Outside of work, I maintain 17 Nix package repos for bleeding-edge software that doesn't exist in nixpkgs, run a performance-tuned multi-host NixOS system configuration with 219 custom options and 125 Home Manager modules, and build AI-assisted development tooling. Avid system tweaker and optimizer.
+Not a computer scientist — just an engineer who stitches things together and makes them work. Outside of work, I maintain 20 Nix package repos for bleeding-edge software that doesn't exist in nixpkgs, run a performance-tuned multi-host NixOS system configuration with 226 custom options and 142 Home Manager modules, and build AI-assisted development tooling. Avid system tweaker and optimizer.
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
 <img src="https://img.shields.io/badge/-NixOS_Packages_%26_Modules-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
 
-17 repos following the [Nix Packaging Standard](https://github.com/Daaboulex) with CI auto-updates, binary caching, and automated upstream tracking.
+20 repos following the [Nix Packaging Standard](https://github.com/Daaboulex) with CI auto-updates, binary caching, and automated upstream tracking.
 
 **GPU & Graphics**
 <table>
@@ -70,6 +70,10 @@ Not a computer scientist — just an engineer who stitches things together and m
     <td align="center"><a href="https://github.com/Daaboulex/OCCT-nix"><b>OCCT-nix</b></a></td>
     <td>OCCT hardware stress testing, benchmarking, and monitoring</td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/vfio-stealth-nix"><b>vfio-stealth-nix</b></a></td>
+    <td>VM anti-detection stack — QEMU, OVMF, ACPI, SMBIOS, and timing patches</td>
+  </tr>
 </table>
 
 **Gaming & Emulation**
@@ -82,6 +86,10 @@ Not a computer scientist — just an engineer who stitches things together and m
     <td align="center"><a href="https://github.com/Daaboulex/nx-save-sync-nix"><b>nx-save-sync</b></a></td>
     <td>Nintendo Switch save file synchronization</td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/rocksmith-nix"><b>rocksmith-nix</b></a></td>
+    <td>Rocksmith 2014 — WineASIO, rs-autoconnect, and patch-rocksmith for live guitar learning on Linux</td>
+  </tr>
 </table>
 
 **Audio & Peripherals**
@@ -93,6 +101,10 @@ Not a computer scientist — just an engineer who stitches things together and m
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/streamcontroller-nix"><b>streamcontroller</b></a></td>
     <td>Elgato Stream Deck control with CLI and declarative config</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/yeetmouse-nix"><b>yeetmouse-nix</b></a></td>
+    <td>Kernel mouse acceleration driver with 8 accel modes and live configuration</td>
   </tr>
 </table>
 
@@ -118,13 +130,17 @@ Not a computer scientist — just an engineer who stitches things together and m
     <td align="center"><a href="https://github.com/Daaboulex/ripgrep-nix"><b>ripgrep-nix</b></a></td>
     <td>ripgrep built from source with latest features</td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/durdraw-nix"><b>durdraw-nix</b></a></td>
+    <td>Duradraw — Unicode/ANSI/ASCII art editor for the terminal</td>
+  </tr>
 </table>
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
 <img src="https://img.shields.io/badge/-System_Configuration-F08030?style=for-the-badge&labelColor=1a1b27" alt="System Configuration"/>
 
-<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 219 custom options, 68 NixOS modules, and 125 Home Manager modules:
+<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 226 custom options, 71 NixOS modules, and 142 Home Manager modules:
 
 > **Dendritic architecture** — every feature is an independent, toggleable module behind `myModules.*` with `_class = "nixos"` type safety
 >
