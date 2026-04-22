@@ -32,7 +32,7 @@ Not a computer scientist — an engineer who stitches things together until they
 
 <img src="https://img.shields.io/badge/-Packages_I_Maintain-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
 
-22 repos. Most are packaging wrappers around upstream projects that nixpkgs doesn't ship or ships late; five are my own code. All share a [packaging standard](https://github.com/Daaboulex/nixos-ai-context/blob/main/repo-standard/REPO-STANDARD.md) (v1.2) — same `flake.nix` shape, same CI template, same `sync.sh` that keeps the fleet aligned. Daily cron updates, per-repo ELF/binary smoke tests, no-AI-file CI gate, branch protection, SECURITY.md.
+22 repos. Most are packaging wrappers around upstream projects that nixpkgs doesn't ship or ships late; five are my own code. All share a [packaging standard](https://github.com/Daaboulex/nixos/blob/main/docs/REPO-STANDARD.md) (v1.2) — same `flake.nix` shape, same CI template, same `sync.sh` that keeps the fleet aligned. Daily cron updates, per-repo ELF/binary smoke tests, no-AI-file CI gate, branch protection, SECURITY.md.
 
 **Authored by me** (not wrapping an upstream binary)
 
