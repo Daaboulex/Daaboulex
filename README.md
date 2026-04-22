@@ -6,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/Daaboulex">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=2000&color=82D44A&center=true&vCenter=true&width=700&height=25&lines=Embedded+Systems+Engineer;NixOS+Package+Maintainer;AI+Tooling+%7C+Arm+Cortex-M+%7C+Kernel+Patching+%7C+Nix+Flakes" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=2000&color=82D44A&center=true&vCenter=true&width=700&height=25&lines=Embedded+Systems+Engineer;NixOS+Package+Maintainer;Arm+Cortex-M+%7C+Kernel+Patching+%7C+Nix+Flakes" alt="Typing SVG"/>
   </a>
 </p>
 
@@ -22,117 +22,113 @@
 
 <img src="https://img.shields.io/badge/-About_Me-B060C0?style=for-the-badge&labelColor=1a1b27" alt="About Me"/>
 
-Embedded Systems Engineer at **Fahlke Control Systems KG** in Germany, working with Arm Cortex-M firmware, ESP32 IoT gateways, and industrial control systems. I build cross-platform build and flash toolchains in PowerShell and Nix that auto-generate Makefiles, wrap firmware flashing, and integrate with VSCode tasks — bridging Windows and Linux development seamlessly. B.Sc. in Robotics and Intelligent Systems from Jacobs University Bremen. Certified in Arm Cortex-M architecture and embedded software design. Native Spanish and English speaker, currently learning German.
+Embedded Systems Engineer at **Fahlke Control Systems KG** (Germany). Day job is Arm Cortex-M4 firmware for industrial valve controllers — FreeRTOS, Modbus RTU/TCP, HART, dual-bank updates, IEC 61508 / 61511 safety constraints. The surrounding ecosystem is ESP32 gateways, MQTT, a React Native field-service app, and a .NET/Avalonia configuration tool. I wrote most of our build system: a PowerShell toolchain that generates Makefiles from a manifest, wraps the flash pipeline for three MCU families, and hooks into VSCode tasks so the same commands work on Windows at the bench and on Linux in CI.
 
-Not a computer scientist — just an engineer who stitches things together and makes them work. Outside of work, I maintain 20 Nix package repos for bleeding-edge software that doesn't exist in nixpkgs, run a performance-tuned multi-host NixOS system configuration with 226 custom options and 142 Home Manager modules, and build AI-assisted development tooling. Avid system tweaker and optimizer.
+B.Sc. Robotics and Intelligent Systems, Jacobs University Bremen. Arm Cortex-M architecture + embedded software design certifications. Native Spanish and English; learning German.
+
+Not a computer scientist — an engineer who stitches things together until they work and then keeps them working. Outside of work I maintain 22 Nix repos for software that either isn't in nixpkgs, lags upstream, or is my own. I also run a two-host NixOS config (desktop + MacBook) that's become the main playground for everything I'm opinionated about: reproducibility, host-specific tuning, and build discipline.
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/-NixOS_Packages_%26_Modules-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
+<img src="https://img.shields.io/badge/-Packages_I_Maintain-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
 
-20 repos following the [Nix Packaging Standard](https://github.com/Daaboulex) with CI auto-updates, binary caching, and automated upstream tracking.
+22 repos. Most are packaging wrappers around upstream projects that nixpkgs doesn't ship or ships late; five are my own code. All share a [packaging standard](https://github.com/Daaboulex/nixos-ai-context/blob/main/repo-standard/REPO-STANDARD.md) (v1.2) — same `flake.nix` shape, same CI template, same `sync.sh` that keeps the fleet aligned. Daily cron updates, per-repo ELF/binary smoke tests, no-AI-file CI gate, branch protection, SECURITY.md.
 
-**GPU & Graphics**
+**Authored by me** (not wrapping an upstream binary)
+
 <table>
   <tr>
-    <td align="center" width="140"><a href="https://github.com/Daaboulex/mesa-git-nix"><b>mesa-git-nix</b></a></td>
-    <td>Bleeding-edge Mesa from <code>main</code> — latest Vulkan/OpenGL drivers before release</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/lsfg-vk-nix"><b>lsfg-vk-nix</b></a></td>
-    <td>Vulkan frame generation (Lossless Scaling) for Linux</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/vkBasalt_overlay_wayland"><b>vkBasalt overlay</b></a></td>
-    <td>Vulkan post-processing layer with in-game ImGui UI (Wayland + X11)</td>
-  </tr>
-</table>
-
-**System & Security**
-<table>
-  <tr>
-    <td align="center" width="140"><a href="https://github.com/Daaboulex/cachyos-settings-nix"><b>cachyos-settings</b></a></td>
-    <td>CachyOS performance tuning as a standalone NixOS module</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/portmaster-nix"><b>portmaster-nix</b></a></td>
-    <td>Portmaster privacy firewall with system tray integration</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/coolercontrol-nix"><b>coolercontrol-nix</b></a></td>
-    <td>Fan and cooling device monitoring with HM module, CLI, and API contract monitoring</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/linux-corecycler"><b>linux-corecycler</b></a></td>
-    <td>Per-core CPU stability tester and PBO Curve Optimizer tuner for AMD Ryzen</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/OCCT-nix"><b>OCCT-nix</b></a></td>
-    <td>OCCT hardware stress testing, benchmarking, and monitoring</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/vfio-stealth-nix"><b>vfio-stealth-nix</b></a></td>
-    <td>VM anti-detection stack — QEMU, OVMF, ACPI, SMBIOS, and timing patches</td>
-  </tr>
-</table>
-
-**Gaming & Emulation**
-<table>
-  <tr>
-    <td align="center" width="140"><a href="https://github.com/Daaboulex/eden-nix"><b>eden-nix</b></a></td>
-    <td>Eden Nintendo Switch emulator</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/nx-save-sync-nix"><b>nx-save-sync</b></a></td>
-    <td>Nintendo Switch save file synchronization</td>
+    <td align="center" width="160"><a href="https://github.com/Daaboulex/linux-corecycler"><b>linux-corecycler</b></a></td>
+    <td>CoreCycler ported from Windows to Linux. Per-core AMD Ryzen stability tester driven by PBO Curve Optimizer offsets. PySide6 sidebar, smart-backoff scheduling, CO-profile save/restore. The Linux port didn't exist before.</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/rocksmith-nix"><b>rocksmith-nix</b></a></td>
-    <td>Rocksmith 2014 — WineASIO, rs-autoconnect, and patch-rocksmith for live guitar learning on Linux</td>
+    <td>Makes Rocksmith 2014 actually playable on Linux. Bundles WineASIO, rs-asio, rs-autoconnect, and a patch-rocksmith tool that strips the game's DRM checks for offline use. The combination is what separates "launches" from "usable for practice."</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/goxlr-hm-nix"><b>goxlr-hm-nix</b></a></td>
+    <td>Declarative Home Manager module for GoXLR. Profile, mic profile, EQ, de-esser, and routing all live in your flake instead of in GoXLR Utility's GUI. Handy when you reinstall; painful to set up once.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/vfio-stealth-nix"><b>vfio-stealth-nix</b></a></td>
+    <td>VM anti-detection stack for VFIO passthrough. ACPI/SMBIOS masking, QEMU CPU topology tweaks, KVM hidden state, OVMF patches, timing fixes. Opinionated defaults that pass the common hypervisor checks without needing to become an expert on each.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/vkBasalt_overlay_wayland"><b>vkbasalt-overlay</b></a></td>
+    <td>Fork of vkBasalt that adds an in-game ImGui overlay for live shader tuning. Works on Wayland, not just X11.</td>
   </tr>
 </table>
 
-**Audio & Peripherals**
+**Packaging upstream software for NixOS** — maintained because nixpkgs either doesn't ship it, ships it stale, or I want build-from-source with my own knobs.
+
 <table>
   <tr>
-    <td align="center" width="140"><a href="https://github.com/Daaboulex/goxlr-hm-nix"><b>goxlr-hm-nix</b></a></td>
-    <td>GoXLR Utility Home Manager module — declarative mixer configuration</td>
+    <td align="center" width="160"><a href="https://github.com/Daaboulex/mesa-git-nix"><b>mesa-git-nix</b></a></td>
+    <td>Mesa from <code>main</code> — every 12h. Useful when a Vulkan/VAAPI bug fix lands days before the stable release.</td>
   </tr>
   <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/streamcontroller-nix"><b>streamcontroller</b></a></td>
-    <td>Elgato Stream Deck control with CLI and declarative config</td>
+    <td align="center"><a href="https://github.com/Daaboulex/cachyos-settings-nix"><b>cachyos-settings-nix</b></a></td>
+    <td>CachyOS's upstream system tuning (sysctls, udev, I/O schedulers, ZRAM, THP, audio) as a standalone NixOS module. No kernel dependency — use the tuning with any kernel.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/portmaster-nix"><b>portmaster-nix</b></a></td>
+    <td>Safing Portmaster — per-app egress firewall. NixOS module wires settings into <code>/etc/portmaster/config.json</code> with a <code>forceSettings</code> tier that reasserts keys UI edits can otherwise revert. Pairs with a small watcher that keeps Mullvad's fwmark alive when Portmaster touches CONNMARK.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/mullvad-vpn-nix"><b>mullvad-vpn-nix</b></a></td>
+    <td>Mullvad VPN tracked against upstream (GitHub releases). Declarative daemon settings via the <code>mullvad</code> CLI, HM module for GUI prefs, version pin so Mullvad updates when I choose, not on every <code>nix flake update</code>.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/coolercontrol-nix"><b>coolercontrol-nix</b></a></td>
+    <td>CoolerControl daemon + GUI + CLI, with an HM layer for autostart and tray integration. Includes an API schema monitor so upstream breaking changes surface in CI instead of at runtime.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/OCCT-nix"><b>OCCT-nix</b></a></td>
+    <td>OCCT stress/bench/monitor. Proprietary upstream, wrapped into a usable <code>nix run</code> entry point.</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/yeetmouse-nix"><b>yeetmouse-nix</b></a></td>
-    <td>Kernel mouse acceleration driver with 8 accel modes and live configuration</td>
+    <td>Kernel module for non-Windows mouse acceleration curves. Ships upstream's eight accel modes with the kernel build + udev rules sorted out for NixOS.</td>
   </tr>
-</table>
-
-**AI & Developer Tools**
-<table>
   <tr>
-    <td align="center" width="140"><a href="https://github.com/Daaboulex/gemini-cli-nix"><b>gemini-cli-nix</b></a></td>
-    <td>Gemini CLI — AI agent in your terminal</td>
+    <td align="center"><a href="https://github.com/Daaboulex/streamcontroller-nix"><b>streamcontroller-nix</b></a></td>
+    <td>StreamController (Elgato Stream Deck, open-source). Packaging + udev rules + HM module for declarative page/deck layouts.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/lsfg-vk-nix"><b>lsfg-vk-nix</b></a></td>
+    <td>Lossless Scaling Frame Generation as a Vulkan layer for Linux-native + Proton games. Tracks the <code>v2.0.0-dev</code> branch.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/eden-nix"><b>eden-nix</b></a></td>
+    <td>Eden — active Yuzu fork after Nintendo's takedown. Gitea commit tracking (upstream isn't on GitHub), wrapped with the Qt/Vulkan runtime dependencies a Switch emulator actually needs.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/nx-save-sync-nix"><b>nx-save-sync-nix</b></a></td>
+    <td>nx_save_sync for Nintendo Switch save files. Desktop entry wired so it launches from the app menu instead of needing a terminal.</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/lmstudio-nix"><b>lmstudio-nix</b></a></td>
-    <td>LM Studio — local LLM inference desktop app and server</td>
+    <td>LM Studio desktop app and CLI server. Proprietary upstream; tracked via a custom updater because LM Studio doesn't use GitHub releases.</td>
+  </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/Daaboulex/gemini-cli-nix"><b>gemini-cli-nix</b></a></td>
+    <td>Google's gemini-cli. Three channels (stable, preview, nightly) pinned to npm dist-tags so I can compare-and-contrast on the same machine.</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/models-nix"><b>models-nix</b></a></td>
-    <td>Models CLI — TUI for browsing AI models, benchmarks, and coding agents</td>
+    <td>arimxyer/models — a TUI for browsing and running local/remote LLMs side-by-side.</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/openviking-nix"><b>openviking-nix</b></a></td>
-    <td>OpenViking — agent-native context database for AI agents</td>
+    <td>OpenViking — context store for AI agents. Packaged for the stack I run alongside Claude Code and Gemini.</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/ripgrep-nix"><b>ripgrep-nix</b></a></td>
-    <td>ripgrep built from source with latest features</td>
+    <td>ripgrep tracking upstream releases. Exists because nixpkgs sometimes sits on an older tag and I want the latest features (multiline improvements, new flags) the week they ship.</td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/Daaboulex/durdraw-nix"><b>durdraw-nix</b></a></td>
-    <td>Duradraw — Unicode/ANSI/ASCII art editor for the terminal</td>
+    <td>durdraw — terminal ANSI/ASCII/Unicode art editor. Handy for writing the banners in my own CLIs.</td>
   </tr>
 </table>
 
@@ -140,19 +136,19 @@ Not a computer scientist — just an engineer who stitches things together and m
 
 <img src="https://img.shields.io/badge/-System_Configuration-F08030?style=for-the-badge&labelColor=1a1b27" alt="System Configuration"/>
 
-<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — Modular NixOS flake with 226 custom options, 71 NixOS modules, and 142 Home Manager modules:
+<a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a> — modular flake-parts config. Two hosts; everything host-specific lives in one place per host, everything shared is a module with a `myModules.*` option.
 
-> **Dendritic architecture** — every feature is an independent, toggleable module behind `myModules.*` with `_class = "nixos"` type safety
+> **Dendritic** — features branch into their own small module with an explicit option interface. Every module exports via `flake.modules.nixos.<scope>-<name>` or the Home Manager equivalent. A path-aware pre-commit hook rejects modules declared in the wrong directory.
 >
-> **Performance-first** — CachyOS kernel with Zen 5 microarch compilation, BORE scheduler, ananicy-cpp, 17 custom overlays
+> **Host-aware tuning** — desktop (Ryzen 9950X3D + RX 9070 XT, CachyOS LTO kernel) and MacBook Pro 9,2 (Ivy Bridge, 2C/4T, dual kernel: xanmod default + cachyos-lto-v2 specialisation). I/O scheduler, earlyoom thresholds, sysctls, and fan curves are chosen per host from measured evidence, not copy-pasted tips.
 >
-> **Multi-host** — Desktop (Ryzen 9950X3D + RX 9070 XT) and MacBook Pro 9,2 with kernel specialisations
+> **Scheduler** — currently EEVDF on both hosts. scx_lavd was the previous default and will come back on kernel 7.1 once Tejun's cgroup_move fix lands; pinned tracker in the roadmap. Governor ladder with a small module that picks `performance` on AC and `schedutil` on battery.
 >
-> **AI-augmented workflow** — Claude Code, Gemini CLI, Kiro, OpenCode, LM Studio, Models CLI, OpenViking, LLMFit
+> **AI-augmented workflow** — Claude Code, Gemini CLI, Kiro, OpenCode, LM Studio, and a small MCP server for context. Hooks auto-commit session memory + skills to a private repo and sync Claude ↔ Gemini config bidirectionally.
 >
-> **Code quality** — treefmt (nixfmt, deadnix, statix, shfmt, shellcheck), git-hooks, NixOS VM integration tests
+> **Automation** — `nrb` build wrapper (with a new `--update-no-kernel` flag that autonomously skips kernel-rebuilding input bumps via speculative eval), disko for partitioning, nine enforcing pre-commit hooks (placement, docstrings, `mkForce`-comment requirements, `with lib;` ban, eval check, README section regen), NixOS VM integration tests for security-sops and impermanence paths.
 >
-> **Automated tooling** — `nrb` build helper, disko declarative partitioning, auto-generated docs, CI checks
+> **Numbers** — ~220 `myModules.*` option paths, 75 NixOS modules, 148 Home Manager modules, 25 overlays, 22 external repos locked in as inputs.
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
@@ -165,27 +161,35 @@ Not a computer scientist — just an engineer who stitches things together and m
 <table align="center">
   <tr>
     <td><b>Embedded</b></td>
-    <td><code>Arm Cortex-M4</code> <code>C</code> <code>C++</code> <code>FreeRTOS</code> <code>ESP32</code> <code>MQTT</code> <code>Control Systems</code></td>
+    <td><code>Arm Cortex-M4 (LPC4337)</code> <code>C</code> <code>C++</code> <code>FreeRTOS</code> <code>ESP32</code> <code>Modbus RTU/TCP</code> <code>HART</code> <code>COBS</code> <code>USB CDC</code> <code>IEC 61508/61511</code></td>
   </tr>
   <tr>
-    <td><b>Tooling</b></td>
-    <td><code>PowerShell</code> <code>Cross-platform CI</code> <code>Makefile generation</code> <code>VSCode task automation</code> <code>.NET</code></td>
+    <td><b>Desktop / Mobile</b></td>
+    <td><code>.NET</code> <code>Avalonia</code> <code>React Native (Expo)</code> <code>MQTT</code></td>
+  </tr>
+  <tr>
+    <td><b>Build tooling</b></td>
+    <td><code>PowerShell</code> <code>Makefile codegen</code> <code>VSCode tasks</code> <code>Windows + Linux dev parity</code></td>
   </tr>
   <tr>
     <td><b>NixOS</b></td>
-    <td><code>Nix Flakes</code> <code>flake-parts</code> <code>Home Manager</code> <code>CachyOS</code> <code>Secure Boot</code> <code>treefmt</code> <code>disko</code> <code>impermanence</code></td>
+    <td><code>Flakes</code> <code>flake-parts</code> <code>Home Manager</code> <code>treefmt</code> <code>disko</code> <code>sops-nix</code> <code>impermanence</code> <code>Secure Boot (lanzaboote)</code></td>
   </tr>
   <tr>
-    <td><b>Linux</b></td>
-    <td><code>Vulkan</code> <code>Mesa</code> <code>AMDGPU</code> <code>Kernel patching</code> <code>BTRFS</code> <code>LUKS</code> <code>sops-nix</code> <code>VFIO</code></td>
+    <td><b>Linux internals</b></td>
+    <td><code>Vulkan</code> <code>Mesa</code> <code>AMDGPU</code> <code>kernel patches</code> <code>btrfs</code> <code>LUKS</code> <code>VFIO</code> <code>zram</code> <code>systemd-resolved DoT</code></td>
   </tr>
   <tr>
-    <td><b>AI</b></td>
-    <td><code>Claude Code</code> <code>Gemini CLI</code> <code>Kiro</code> <code>LM Studio</code> <code>OpenCode</code> <code>TidalCycles</code></td>
+    <td><b>Audio / creative</b></td>
+    <td><code>PipeWire</code> <code>GoXLR</code> <code>Rocksmith</code> <code>TidalCycles</code> <code>SuperCollider</code></td>
   </tr>
   <tr>
     <td><b>Gaming</b></td>
     <td><code>Steam</code> <code>Gamescope</code> <code>MangoHud</code> <code>LSFG-VK</code> <code>vkBasalt</code> <code>Wine</code> <code>VFIO passthrough</code></td>
+  </tr>
+  <tr>
+    <td><b>AI tooling</b></td>
+    <td><code>Claude Code</code> <code>Gemini CLI</code> <code>Kiro</code> <code>OpenCode</code> <code>LM Studio</code> <code>Models CLI</code> <code>OpenViking</code> <code>MCP</code></td>
   </tr>
 </table>
 
