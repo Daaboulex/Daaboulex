@@ -20,13 +20,14 @@ jobs:
           set -euo pipefail
 
           EXCLUDE="Daaboulex hotspotshield-nix CPI_Timeseries_ARIMA RIS-Lab-1-uuv_simulator"
-          HIGHLIGHT="linux-corecycler vkBasalt_overlay_wayland kachow vfio-stealth-nix nixos"
+          # Projects I Built (A+B) + Packaging with custom modules (C) — hand-written in README
+          HAND_WRITTEN="linux-corecycler vkBasalt_overlay_wayland kachow rocksmith-nix nixos vfio-stealth-nix goxlr-hm-nix portmaster-nix cachyos-settings-nix mullvad-vpn-nix coolercontrol-nix streamcontroller-nix mesa-git-nix refind-nix gemini-cli-nix"
 
           gh repo list Daaboulex --public --no-archived --json name,description,isFork --limit 100 \
-            | jq -r --arg exclude "$EXCLUDE" --arg highlight "$HIGHLIGHT" '
+            | jq -r --arg exclude "$EXCLUDE" --arg highlight "$HAND_WRITTEN" '
               ($exclude | split(" ")) as $ex |
-              ($highlight | split(" ")) as $hi |
-              [ .[] | select(.name as $n | $ex | index($n) | not) | select(.name as $n | $hi | index($n) | not) ] |
+              ($highlight | split(" ")) as $hw |
+              [ .[] | select(.name as $n | $ex | index($n) | not) | select(.name as $n | $hw | index($n) | not) ] |
               sort_by(.name | ascii_downcase) |
               .[] |
               "| [\(.name)](https://github.com/Daaboulex/\(.name)) | \(.description // "—") |"
