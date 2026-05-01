@@ -1,6 +1,6 @@
-# Stephan Daaboul
-
-Embedded Systems Engineer · NixOS Package Maintainer
+<p align="center">
+  <img src="header.svg" width="800" alt="Stephan Daaboul — Embedded Systems Engineer · NixOS Package Maintainer"/>
+</p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/stephan-daaboul/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
