@@ -1,10 +1,18 @@
 <p align="center">
-  <img src="header.svg" width="800" alt="Stephan Daaboul — Embedded Systems Engineer · NixOS Package Maintainer"/>
+  <a href="https://github.com/Daaboulex">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=32&duration=3000&pause=1000&color=B060C0&center=true&vCenter=true&repeat=false&width=600&height=45&lines=Stephan+Daaboul" alt="Stephan Daaboul"/>
+  </a>
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/stephan-daaboul/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-  <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/NixOS-unstable-5277C3?style=flat-square&logo=nixos&logoColor=white" alt="NixOS"></a>
+  <a href="https://github.com/Daaboulex">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=16&duration=3000&pause=2000&color=82D44A&center=true&vCenter=true&width=700&height=25&lines=Embedded+Systems+Engineer;NixOS+Package+Maintainer;Arm+Cortex-M+%7C+Industrial+Control+%7C+Nix+Flakes" alt="Typing SVG"/>
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://github.com/Daaboulex?tab=repositories"><img src="https://img.shields.io/badge/NixOS-unstable-78C0E8?style=for-the-badge&logo=nixos&logoColor=white" alt="NixOS"></a>
+  <a href="https://www.linkedin.com/in/stephan-daaboul/"><img src="https://img.shields.io/badge/LinkedIn-Connect-B060C0?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
 </p>
 
 ## About Me
