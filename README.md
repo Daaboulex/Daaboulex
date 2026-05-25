@@ -127,6 +127,8 @@ Packaging upstream software for NixOS — things nixpkgs doesn't ship, ships sta
 | [lmstudio-nix](https://github.com/Daaboulex/lmstudio-nix) | LM Studio packaged for NixOS — local LLM inference desktop app and server |
 | [lsfg-vk-nix](https://github.com/Daaboulex/lsfg-vk-nix) | LSFG-VK packaged for NixOS — Vulkan frame generation for Linux |
 | [models-nix](https://github.com/Daaboulex/models-nix) | Models CLI packaged for NixOS — TUI for browsing AI models, benchmarks, and coding agents |
+| [nix-cachyos-kernel](https://github.com/Daaboulex/nix-cachyos-kernel) | CachyOS kernel for NixOS |
+| [nix-packaging-standard](https://github.com/Daaboulex/nix-packaging-standard) | Canonical packaging standard for the Daaboulex NixOS package fleet — shared update workflow, drift check, JSON schema. |
 | [OCCT-nix](https://github.com/Daaboulex/OCCT-nix) | OCCT packaged for NixOS — hardware stress testing, benchmarking, and monitoring |
 | [openviking-nix](https://github.com/Daaboulex/openviking-nix) | OpenViking packaged for NixOS — agent-native context database for AI agents |
 | [ripgrep-nix](https://github.com/Daaboulex/ripgrep-nix) | ripgrep packaged for NixOS — fast recursive grep replacement, built from source |
