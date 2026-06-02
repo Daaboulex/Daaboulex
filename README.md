@@ -41,21 +41,14 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 
 <img src="https://img.shields.io/badge/-Git_Stats-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="Git Stats"/>
 
+<!-- Rendered by .github/workflows/metrics.yml and committed into the repo, so
+     it always loads (no rate-limited shared card instance). -->
 <p align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Daaboulex&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=B060C0&icon_color=82D44A&text_color=c0caf5&ring_color=B060C0" alt="GitHub stats"/>
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daaboulex&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&hide=html,css,roff&hide_border=true&bg_color=1a1b27&title_color=B060C0&text_color=c0caf5" alt="Top languages"/>
-</p>
-
-<p align="center">
-  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Daaboulex&hide_border=true&background=1a1b27&stroke=565f89&ring=B060C0&fire=F08030&currStreakLabel=82D44A&sideLabels=78C0E8&dates=565f89&currStreakNum=c0caf5&sideNums=c0caf5&dayLabels=565f89" alt="Contribution streak"/>
+  <img src="github-metrics.svg" alt="GitHub metrics" width="100%"/>
 </p>
 
 <p align="center">
   <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&custom_title=Contribution%20Activity&bg_color=1a1b27&color=c0caf5&line=B060C0&point=82D44A&area=true&area_color=B060C0&hide_border=true" alt="Contribution activity graph"/>
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Daaboulex&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7&title=Commits,Repositories,Reviews,PullRequest,Issues,Stars,Followers" alt="GitHub trophies"/>
 </p>
 
 <p align="center"><img src="divider.svg" width="100%"></p>
