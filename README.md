@@ -14,7 +14,7 @@
 
 <img src="https://img.shields.io/badge/-About_Me-B060C0?style=for-the-badge&labelColor=1a1b27" alt="About Me"/>
 
-Embedded Systems Engineer at **Fahlke Control Systems KG** (Germany). Day job is Arm Cortex-M4 firmware for industrial valve controllers. 
+Embedded Systems Engineer at **Fahlke Control Systems KG** (Germany). Day job is Arm Cortex-M4 firmware for industrial valve controllers.
 
 B.Sc. Robotics and Intelligent Systems, Jacobs University Bremen. Arm Cortex-M architecture + embedded software design certifications. Native Spanish and English; learning German.
 
@@ -39,102 +39,24 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
-<img src="https://img.shields.io/badge/-Projects_I_Built-82D44A?style=for-the-badge&labelColor=1a1b27" alt="Projects I Built"/>
+<img src="https://img.shields.io/badge/-Git_Stats-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="Git Stats"/>
 
-<table>
-  <tr>
-    <td align="center" width="160"><a href="https://github.com/Daaboulex/linux-corecycler"><b>linux-corecycler</b></a></td>
-    <td>CoreCycler ported from Windows to Linux. Per-core AMD Ryzen stability tester for PBO Curve Optimizer offsets. PySide6 GUI, smart-backoff scheduling, CO-profile save/restore. The Linux port didn't exist before I wrote it.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/kachow"><b>kachow</b></a></td>
-    <td>Portable hook framework for AI coding agents. One rules file, every tool on your machine follows it — Claude Code, Gemini CLI, Codex, OpenCode, Aider, Cursor.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/vkBasalt_overlay_wayland"><b>vkBasalt overlay</b></a></td>
-    <td>Fork of vkBasalt — added an in-game ImGui overlay for live shader tuning and Wayland support. Upstream was X11-only.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/rocksmith-nix"><b>rocksmith-nix</b></a></td>
-    <td>Fork — bundled WineASIO, rs-asio, rs-autoconnect, and a DRM patch tool into one package that makes Rocksmith 2014 actually playable on Linux instead of just launchable.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/nixos"><b>nixos</b></a></td>
-    <td>My NixOS config. Two hosts, dendritic architecture — every concern gets its own module with an explicit option interface. Enforcing pre-commit hooks, VM integration tests, host-specific tuning from measured evidence.</td>
-  </tr>
-</table>
+<p align="center">
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Daaboulex&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=1a1b27&title_color=B060C0&icon_color=82D44A&text_color=c0caf5&ring_color=B060C0" alt="GitHub stats"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Daaboulex&layout=compact&langs_count=8&size_weight=0.5&count_weight=0.5&hide=html,css,roff&hide_border=true&bg_color=1a1b27&title_color=B060C0&text_color=c0caf5" alt="Top languages"/>
+</p>
 
-<p align="center"><img src="divider.svg" width="100%"></p>
+<p align="center">
+  <img height="170" src="https://github-readme-streak-stats.herokuapp.com/?user=Daaboulex&hide_border=true&background=1a1b27&stroke=565f89&ring=B060C0&fire=F08030&currStreakLabel=82D44A&sideLabels=78C0E8&dates=565f89&currStreakNum=c0caf5&sideNums=c0caf5&dayLabels=565f89" alt="Contribution streak"/>
+</p>
 
-<img src="https://img.shields.io/badge/-NixOS_Packages-78C0E8?style=for-the-badge&labelColor=1a1b27" alt="NixOS Packages"/>
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&custom_title=Contribution%20Activity&bg_color=1a1b27&color=c0caf5&line=B060C0&point=82D44A&area=true&area_color=B060C0&hide_border=true" alt="Contribution activity graph"/>
+</p>
 
-Packaging upstream software for NixOS — things nixpkgs doesn't ship, ships stale, or that I want built from source. I didn't write these tools; I wrote the Nix packaging, modules, and CI around them. All share a [packaging standard](https://github.com/Daaboulex/nixos/blob/main/docs/REPO-STANDARD.md). Issues and PRs welcome.
-
-**With custom NixOS/HM modules** — declarative config, API integration, settings tiers, or substantial module logic beyond basic packaging:
-
-<table>
-  <tr>
-    <td align="center" width="160"><a href="https://github.com/Daaboulex/vfio-stealth-nix"><b>vfio-stealth-nix</b></a></td>
-    <td>NixOS module integrating several upstream anti-detection projects (QEMU patches, OVMF, ACPI SSDTs) into one declarative config for GPU-passthrough gaming setups. Techniques credit upstream; the Nix integration and ACPI generation are mine.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/goxlr-hm-nix"><b>goxlr-hm-nix</b></a></td>
-    <td>Home Manager module for GoXLR. Profile, mic profile, EQ, de-esser, and routing declared in your flake instead of GoXLR Utility's GUI.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/portmaster-nix"><b>portmaster-nix</b></a></td>
-    <td>Portmaster built from source (Go + Rust/Tauri + Angular). NixOS module with <code>forceSettings</code> tier that reasserts keys the UI would otherwise revert.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/cachyos-settings-nix"><b>cachyos-settings-nix</b></a></td>
-    <td>CachyOS system tuning re-expressed as NixOS module options. Not a copy of the Arch files — a translation into Nix module shape. No kernel dependency.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/mullvad-vpn-nix"><b>mullvad-vpn-nix</b></a></td>
-    <td>NixOS module + HM module + version pinning. Declarative daemon settings via jq-patch, schema-gated.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/coolercontrol-nix"><b>coolercontrol-nix</b></a></td>
-    <td>CoolerControl daemon + GUI + CLI with HM module for REST API integration (profiles, modes, alerts applied on login).</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/streamcontroller-nix"><b>streamcontroller-nix</b></a></td>
-    <td>StreamController with NixOS module (udev) + HM module (declarative page/button config, device serial mapping) + CLI.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/mesa-git-nix"><b>mesa-git-nix</b></a></td>
-    <td>Mesa from <code>main</code> via overlay. NixOS module for one-line GPU driver swap with vendor-aware presets.</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/refind-nix"><b>refind-nix</b></a></td>
-    <td>Declarative rEFInd module with typed options, theme generation, and security validation (PE binary detection, directive whitelist).</td>
-  </tr>
-  <tr>
-    <td align="center"><a href="https://github.com/Daaboulex/gemini-cli-nix"><b>gemini-cli-nix</b></a></td>
-    <td>Three channels (stable, preview, nightly) tracked independently via npm dist-tags. Overlay exposes all three.</td>
-  </tr>
-</table>
-
-**Standard packaging** — upstream software wrapped for `nix run` / `nix profile install` with CI and automatic updates:
-
-<!-- BEGIN auto:repos -->
-<!-- This table is auto-generated by .github/workflows/update-readme.yml — do not edit manually -->
-
-| Repo | Description |
-|---|---|
-| [durdraw-nix](https://github.com/Daaboulex/durdraw-nix) | Duradraw packaged for NixOS — Unicode/ANSI/ASCII art editor for the terminal |
-| [eden-nix](https://github.com/Daaboulex/eden-nix) | Eden packaged for NixOS — Nintendo Switch emulator |
-| [lmstudio-nix](https://github.com/Daaboulex/lmstudio-nix) | LM Studio packaged for NixOS — local LLM inference desktop app and server |
-| [lsfg-vk-nix](https://github.com/Daaboulex/lsfg-vk-nix) | LSFG-VK packaged for NixOS — Vulkan frame generation for Linux |
-| [models-nix](https://github.com/Daaboulex/models-nix) | Models CLI packaged for NixOS — TUI for browsing AI models, benchmarks, and coding agents |
-| [nix-cachyos-kernel](https://github.com/Daaboulex/nix-cachyos-kernel) | CachyOS kernel for NixOS |
-| [nix-packaging-standard](https://github.com/Daaboulex/nix-packaging-standard) | Canonical packaging standard for the Daaboulex NixOS package fleet — shared update workflow, drift check, JSON schema. |
-| [OCCT-nix](https://github.com/Daaboulex/OCCT-nix) | OCCT packaged for NixOS — hardware stress testing, benchmarking, and monitoring |
-| [openviking-nix](https://github.com/Daaboulex/openviking-nix) | OpenViking packaged for NixOS — agent-native context database for AI agents |
-| [ripgrep-nix](https://github.com/Daaboulex/ripgrep-nix) | ripgrep packaged for NixOS — fast recursive grep replacement, built from source |
-| [yeetmouse-nix](https://github.com/Daaboulex/yeetmouse-nix) | YeetMouse packaged for NixOS — kernel mouse acceleration driver with 8 accel modes |
-
-<!-- END auto:repos -->
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Daaboulex&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=7&title=Commits,Repositories,Reviews,PullRequest,Issues,Stars,Followers" alt="GitHub trophies"/>
+</p>
 
 <p align="center"><img src="divider.svg" width="100%"></p>
 
