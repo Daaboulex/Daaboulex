@@ -44,15 +44,17 @@ jobs:
           # most-used is byte-based but RELIABLE with a least-privilege token.
           # (recently-used / indepth / habits all need cross-repo commit access
           # the read-only own-repo token lacks → they hang or error.) Skip the
-          # byte-heavy noise — old ML/Jupyter repos + vendored-source forks — so
-          # the Nix packaging actually surfaces.
+          # byte-heavy non-Nix noise — old ML/Jupyter/robotics repos, the big
+          # standalone Python (corecycler) and JS (kachow) projects, and
+          # vendored-source forks — so the Nix packaging fleet actually leads.
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_skipped: >-
             CPI_Timeseries_ARIMA, ComputerVission, BeSus, RIS-Lab-1-uuv_simulator,
-            hotspotshield-nix, vkBasalt_overlay_wayland, nix-cachyos-kernel
+            hotspotshield-nix, vkBasalt_overlay_wayland, nix-cachyos-kernel,
+            linux-corecycler, kachow
 
           # Contribution calendar (isometric, full year)
           plugin_isocalendar: yes
