@@ -28,6 +28,16 @@ jobs:
           config_timezone: Europe/Berlin
           config_animations: no
 
+          # Dark theme to match the profile palette (the classic template is light).
+          extras_css: |
+            body { background: #1a1b27; color: #c0caf5; }
+            svg { color: #c0caf5; }
+            h1, h2, h3 { color: #b060c0 !important; }
+            .field, .field span, .field div { color: #c0caf5 !important; }
+            .field svg { fill: #82d44a; }
+            a, a * { color: #78c0e8 !important; }
+            .day[fill="#ebedf0"] { fill: #2a2e45 !important; }
+
           # Language mix across all repos (size + count weighted)
           plugin_languages: yes
           plugin_languages_sections: most-used
