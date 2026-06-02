@@ -41,18 +41,18 @@ jobs:
             a, a * { color: #78c0e8 !important; }
             .day[fill="#ebedf0"] { fill: #2a2e45 !important; }
 
-          # Language mix by what you've RECENTLY AUTHORED, not repo byte-size —
-          # byte-size is dominated by huge vendored upstream code and old Jupyter
-          # notebooks, which buries Nix. Skip the old ML/uni + deprecated repos.
+          # most-used is byte-based but RELIABLE with a least-privilege token.
+          # (recently-used / indepth / habits all need cross-repo commit access
+          # the read-only own-repo token lacks → they hang or error.) Skip the
+          # byte-heavy noise — old ML/Jupyter repos + vendored-source forks — so
+          # the Nix packaging actually surfaces.
           plugin_languages: yes
-          plugin_languages_sections: recently-used
-          plugin_languages_recent_days: 120
-          plugin_languages_recent_load: 400
+          plugin_languages_sections: most-used
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_skipped: >-
-            CPI_Timeseries_ARIMA, ComputerVission, BeSus,
-            RIS-Lab-1-uuv_simulator, hotspotshield-nix
+            CPI_Timeseries_ARIMA, ComputerVission, BeSus, RIS-Lab-1-uuv_simulator,
+            hotspotshield-nix, vkBasalt_overlay_wayland, nix-cachyos-kernel
 
           # Contribution calendar (isometric, full year)
           plugin_isocalendar: yes
