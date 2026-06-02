@@ -41,20 +41,23 @@ jobs:
             a, a * { color: #78c0e8 !important; }
             .day[fill="#ebedf0"] { fill: #2a2e45 !important; }
 
-          # most-used is byte-based but RELIABLE with a least-privilege token.
-          # (recently-used / indepth / habits all need cross-repo commit access
-          # the read-only own-repo token lacks → they hang or error.) Skip the
-          # byte-heavy non-Nix noise — old ML/Jupyter/robotics coursework, the
-          # archived JS project, and vendored-source forks — so the Nix
-          # packaging fleet leads. linux-corecycler is kept (own project).
+          # indepth: clones each repo and attributes languages to OUR OWN
+          # commits (lines authored), not whole-repo bytes — fair for
+          # collaborative/forked repos and de-bloats Jupyter notebook output /
+          # generated Makefiles. Needs a valid classic token (set 2026-06-02).
+          # Skip list keeps only: the two vendored FORKS (code isn't ours), the
+          # archived JS project (kachow), and the two byte-giants whose content
+          # is generated/output, not authored code (ComputerVission notebooks,
+          # RIS-Lab Makefiles) + CPI/BeSus per owner's call. corecycler +
+          # hotspotshield-nix are kept IN.
           plugin_languages: yes
           plugin_languages_sections: most-used
+          plugin_languages_indepth: yes
           plugin_languages_details: percentage
           plugin_languages_limit: 8
           plugin_languages_skipped: >-
             CPI_Timeseries_ARIMA, ComputerVission, BeSus, RIS-Lab-1-uuv_simulator,
-            hotspotshield-nix, vkBasalt_overlay_wayland, nix-cachyos-kernel,
-            kachow
+            vkBasalt_overlay_wayland, nix-cachyos-kernel, kachow
 
           # Contribution calendar (isometric, full year)
           plugin_isocalendar: yes
