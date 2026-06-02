@@ -49,7 +49,7 @@ a, a ARCHITECTURE.md CODE_OF_CONDUCT.md CONTRIBUTING.md Dockerfile LICENSE READM
                                     <rect class="day" x="150" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="165" y="0" width="11" height="11" fill="#ebedf0" rx="2" ry="2"/>
                                     <rect class="day" x="180" y="0" width="11" height="11" fill="#9be9a8" rx="2" ry="2"/>
-                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#30a14e" rx="2" ry="2"/>
+                                    <rect class="day" x="195" y="0" width="11" height="11" fill="#216e39" rx="2" ry="2"/>
                                 </g>
                             </svg>
                         </div>
@@ -75,7 +75,7 @@ a, a ARCHITECTURE.md CODE_OF_CONDUCT.md CONTRIBUTING.md Dockerfile LICENSE READM
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                             </svg>
-                            3079 Commits
+                            3081 Commits
                         </div>
                         <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
@@ -220,17 +220,17 @@ a, a ARCHITECTURE.md CODE_OF_CONDUCT.md CONTRIBUTING.md Dockerfile LICENSE READM
             </section>
             <section class="column">
                 <h3 class="field">Most used languages</h3>
-                <small>estimation from 4.79mb of code in 2159 edited files across 649 commits</small>
+                <small>estimation from 4.79mb of code in 2163 edited files across 652 commits</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="175.389087123964" height="8" fill="#7e7eff"/>
-                    <rect mask="url(#languages-bar)" x="175.389087123964" y="0" width="153.2198477636823" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="328.6089348876463" y="0" width="124.82119095277974" height="8" fill="#89e051"/>
-                    <rect mask="url(#languages-bar)" x="453.43012584042606" y="0" width="5.514174772276624" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="458.94430061270265" y="0" width="1.0556993872973301" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="175.5450707271901" height="8" fill="#7e7eff"/>
+                    <rect mask="url(#languages-bar)" x="175.5450707271901" y="0" width="153.13587423048773" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="328.6809449576778" y="0" width="124.75278156212413" height="8" fill="#89e051"/>
+                    <rect mask="url(#languages-bar)" x="453.433726519802" y="0" width="5.511152678565927" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="458.9448791983679" y="0" width="1.0551208016321136" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -242,7 +242,7 @@ a, a ARCHITECTURE.md CODE_OF_CONDUCT.md CONTRIBUTING.md Dockerfile LICENSE READM
                                 Nix
                             </div>
                             <small>
-                                <div>38.13%</div>
+                                <div>38.16%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -253,7 +253,7 @@ a, a ARCHITECTURE.md CODE_OF_CONDUCT.md CONTRIBUTING.md Dockerfile LICENSE READM
                                 Shell
                             </div>
                             <small>
-                                <div>27.14%</div>
+                                <div>27.12%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -277,7 +277,7 @@ a, a ARCHITECTURE.md CODE_OF_CONDUCT.md CONTRIBUTING.md Dockerfile LICENSE READM
                                 Python
                             </div>
                             <small>
-                                <div>33.31%</div>
+                                <div>33.29%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -2300,7 +2300,7 @@ a, a ARCHITECTURE.md CODE_OF_CONDUCT.md CONTRIBUTING.md Dockerfile LICENSE READM
             </section>
             <footer>
                 <span>These metrics include private contributions</span>
-                <span>Last updated 2 Jun 2026, 19:07:48 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
+                <span>Last updated 2 Jun 2026, 19:12:15 (timezone Europe/Berlin) with lowlighter/metrics@3.34.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
