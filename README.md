@@ -14,7 +14,7 @@
 
 <img src="https://img.shields.io/badge/-About_Me-B060C0?style=for-the-badge&labelColor=1a1b27" alt="About Me"/>
 
-Embedded Systems Engineer at **Fahlke Control Systems KG** (Germany). Day job is Arm Cortex-M4 firmware for industrial valve controllers — FreeRTOS, Modbus RTU/TCP, HART, secure firmware updates, IEC 61508/61511 safety constraints. The surrounding stack is ESP32 gateways, MQTT, a React Native field-service app, and a .NET/Avalonia configuration tool. I wrote most of our build system: a PowerShell toolchain that generates Makefiles from a manifest, wraps the flash pipeline for three MCU families, and hooks into VSCode tasks so the same commands work on Windows at the bench and on Linux in CI.
+Embedded Systems Engineer at **Fahlke Control Systems KG** (Germany). Day job is Arm Cortex-M4 firmware for industrial valve controllers. 
 
 B.Sc. Robotics and Intelligent Systems, Jacobs University Bremen. Arm Cortex-M architecture + embedded software design certifications. Native Spanish and English; learning German.
 
