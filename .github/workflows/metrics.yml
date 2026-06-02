@@ -43,13 +43,14 @@ jobs:
 
           # indepth: clones each repo and attributes languages to OUR OWN
           # commits (lines authored), not whole-repo bytes — fair for
-          # collaborative/forked repos and de-bloats Jupyter notebook output /
-          # generated Makefiles. Needs a valid classic token (set 2026-06-02).
-          # Skip list keeps only: the two vendored FORKS (code isn't ours), the
-          # archived JS project (kachow), and the two byte-giants whose content
-          # is generated/output, not authored code (ComputerVission notebooks,
-          # RIS-Lab Makefiles) + CPI/BeSus per owner's call. corecycler +
-          # hotspotshield-nix are kept IN.
+          # collaborative/forked repos (counts only our contributions) and
+          # de-bloats Jupyter notebook output / generated Makefiles. Needs a
+          # valid classic token (set 2026-06-02). The vendored forks
+          # (vkBasalt, nix-cachyos-kernel) are now INCLUDED: indepth credits
+          # only our commits in them, not the upstream source. Skip list keeps
+          # only: the archived JS project (kachow) and the byte-giants whose
+          # content is generated/output, not authored code (ComputerVission
+          # notebooks, RIS-Lab Makefiles) + CPI/BeSus per owner's call.
           plugin_languages: yes
           plugin_languages_sections: most-used
           plugin_languages_indepth: yes
@@ -57,7 +58,7 @@ jobs:
           plugin_languages_limit: 8
           plugin_languages_skipped: >-
             CPI_Timeseries_ARIMA, ComputerVission, BeSus, RIS-Lab-1-uuv_simulator,
-            vkBasalt_overlay_wayland, nix-cachyos-kernel, kachow
+            kachow
 
           # Contribution calendar (isometric, full year)
           plugin_isocalendar: yes
