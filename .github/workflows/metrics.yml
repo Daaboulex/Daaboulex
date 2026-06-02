@@ -20,7 +20,10 @@ jobs:
       - name: Generate metrics
         uses: lowlighter/metrics@65836723097537a54cd8eb90f61839426b4266b6 # v3.34
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # A personal access token is required to aggregate across ALL repos
+          # (languages, habits, repo stats); the built-in token only sees this
+          # repo. Falls back to it until METRICS_TOKEN is added (limited render).
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: Daaboulex
           filename: github-metrics.svg
           template: classic
@@ -48,10 +51,7 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Achievements + coding habits
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_display: compact
+          # Coding habits (needs METRICS_TOKEN to read commit patches)
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: yes

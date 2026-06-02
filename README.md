@@ -47,10 +47,6 @@ K. Garcia, C.E. Godinez, **S. Daaboul**, P. Cendoya, G. Ramos, D. Gabel
   <img src="github-metrics.svg" alt="GitHub metrics" width="100%"/>
 </p>
 
-<p align="center">
-  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Daaboulex&custom_title=Contribution%20Activity&bg_color=1a1b27&color=c0caf5&line=B060C0&point=82D44A&area=true&area_color=B060C0&hide_border=true" alt="Contribution activity graph"/>
-</p>
-
 <p align="center"><img src="divider.svg" width="100%"></p>
 
 <p align="center">
